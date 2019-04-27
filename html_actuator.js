@@ -133,7 +133,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "菜!";
+  var message = won ? "还行吧!" : "菜!";
 
   if (typeof gtag !== "undefined") {
     gtag("event", "end", {
