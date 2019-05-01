@@ -5,8 +5,8 @@ var count = 1;
 var minwait = 1;
 var maxwait = 4;
 // getting classes
-var averageText = document.getElementsByClassName("average");
-var triesText = document.getElementsByClassName("tries");
+var averageText = document.getElementsByClassName("平均得分");
+var triesText = document.getElementsByClassName("尝试次数");
 // Due to the stacking effect of the boxes, z-index can be changed to display which box should be in front
 // When pushing a particular box to the front, other 2 boxes will be pushed back
 function start() {
