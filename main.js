@@ -7,8 +7,8 @@ var maxwait = 4;
 // getting classes
 var averageText = document.getElementsByClassName("average");
 var triesText = document.getElementsByClassName("tries");
-// Due to the stacking effect of the boxes, z-index can be changed to display which box should be in front
-// When pushing a particular box to the front, other 2 boxes will be pushed back
+// Due to the stacking effect of the boxes, z-index can be changed to display which box should be in front.
+// When pushing a particular box to the front, other 2 boxes will be pushed back.
 function start() {
     var time = Math.floor(Math.random() * (maxwait - minwait) + minwait) * 1000;
     document.getElementsByClassName("container")[1].style.zIndex = 2;
