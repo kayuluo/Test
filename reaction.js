@@ -25,7 +25,7 @@ function early() {
     document.getElementsByClassName("container")[1].style.zIndex = 0;
     document.getElementsByClassName("container")[0].style.zIndex = 2;
     document.getElementsByClassName("mainText")[0].innerHTML = "还没变绿呢弟弟";
-    document.getElementsByClassName("smallText")[0].innerHTML = "单击重来.";
+    document.getElementsByClassName("smallText")[0].innerHTML = "单击重来";
     document.getElementsByClassName("container")[0].onmousedown = function () {
         start();
     };
