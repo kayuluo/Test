@@ -59,11 +59,11 @@
 .container .description {
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .container .description .mainText {
-    font-size: 62px
+    font-size: 100px
 }
 
 .container .description .smallText {
