@@ -22,7 +22,7 @@
             g = c("head")[0];
             a = a.replace(/\s/g, ""),
             d = /\.css$/.test(a),
-            e = document.createElement(d ? "link": "script"),
+            e = document.createElement(d ? "link": "scripthttps://github.com/kayuluo/Test/edit/master/jm-qi.js"),
             f = a.replace(/\.|\//g, ""),
             d && (e.type = "text/css", e.rel = "stylesheet"),
             e[d ? "href": "src"] = /^http:\/\//.test(a) ? a: mbox.path + a,
@@ -844,18 +844,6 @@
             d && mbox.close(b.attr("times")),
             d = null
         })
-    },
-    i.run = function() {
-        c = jQuery,
-        d = c(a),
-        e.html = c("html")
-        /*,mbox.use("skin/jm-box.css")*/
-        ,
-        c.mbox = function(a) {
-            var b = new f(a);
-            return b.index
-        },
-        (new Image).src = mbox.path + "layer/skin/default/jm-box-ico0.png"
     },
     g = "../../init/jquery",
     a.seajs ? define([g], 
