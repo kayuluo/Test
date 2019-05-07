@@ -48,9 +48,6 @@
     left: 0;
 }
 
-.jm-box-load {
-    background: url('../images/jm-box-loading0.gif') #fff center center no-repeat;
-}
 .jm-box-loading {
     display: block;
     float: left;
@@ -58,23 +55,12 @@
     color: #FFF;
     _float: none;
 }
-.jm-layer-png32 {
-    background: url('../images/jm-box-ico0.png') no-repeat;
-}
 .jm-box-moves {
     border: 3px solid #666;
     cursor: move;
     background-color: rgba(255, 255, 255, .3);
     background-color: #fff \9;
     filter: alpha(opacity=50);
-}
-.jm-box-icon {
-    width: 30px;
-    height: 30px;
-    background: url('../images/jm-box-icon.png') no-repeat;
-    display: inline-block;
-    vertical-align: -9px;
-    margin-right: 10px;
 }
 .jm-box-text {
     line-height: 30px;
@@ -97,26 +83,6 @@
 }
 .jm-box-icon-3 {
     background-position: 0 0;
-}
-.jm-box-loading-0 {
-    width: 60px;
-    height: 24px;
-    background: url('../images/jm-box-loading0.gif') no-repeat;
-}
-.jm-box-loading-1 {
-    width: 37px;
-    height: 37px;
-    background: url('../images/jm-box-loading1.gif') no-repeat;
-}
-.jm-box-loading-2, .jm-box-icon-16 {
-    width: 32px;
-    height: 32px;
-    background: url('../images/jm-box-loading2.gif') no-repeat;
-}
-.jm-box-loading-3 {
-    width: 126px;
-    height: 22px;
-    background: url('../images/jm-box-loading3.gif') no-repeat;
 }
 .jm-box-setwin {
     position: absolute;
