@@ -812,39 +812,6 @@
         var d = c("#" + e[0] + (b || mbox.index)).find(".jm-box-title>em");
         d.html(a)
     },
-    mbox.close = function(a) {
-        var b,
-        d = c("#" + e[0] + a),
-        f = d.attr("type"),
-        g = c("#jm-box-moves, #jm-box-shade" + a);
-        if (d[0]) {
-            if (f == i.type[1]) if (d.find(".xuboxPageHtml")[0]) d[0].innerHTML = "",
-            d.remove();
-            else for (d.find(".jm-box-setwin,.jm-box-close,.jm-box-button,.jm-box-title,.jm-box-border").remove(), b = 0; 3 > b; b++) d.find(".layer-pageContent").unwrap().hide();
-            else d[0].innerHTML = "",
-            d.remove();
-            g.remove(),
-            mbox.ie6 && i.reselect(),
-            i.rescollbar(a),
-            "function" == typeof i.config.end[a] && i.config.end[a](),
-            delete i.config.end[a]
-        }
-    },
-    mbox.closeLoad = function() {
-        mbox.close(c(".jm-box-loading").parents("." + e[0]).attr("times"))
-    },
-    mbox.closeTips = function() {
-        mbox.closeAll("tips")
-    },
-    mbox.closeAll = function(a) {
-        c.each(c("." + e[0]), 
-        function() {
-            var b = c(this),
-            d = a ? b.attr("type") === a: 1;
-            d && mbox.close(b.attr("times")),
-            d = null
-        })
-    },
     g = "../../init/jquery",
     a.seajs ? define([g], 
     function(a, b, c) {
